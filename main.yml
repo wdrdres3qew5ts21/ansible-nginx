@@ -10,7 +10,7 @@
    - name: start and enable nginx
      service:
       name: nginx
-      state: emabled
+      state: started
       enabled: yes
    - name: allow http port
      firewalld:
