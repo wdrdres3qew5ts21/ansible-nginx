@@ -9,7 +9,7 @@
       state: present
    - name: start and enable nginx
      service:
-      name:: nginx
+      name: nginx
       state: started
       enabled: yes
    - name: allow http port
